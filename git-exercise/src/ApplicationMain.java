@@ -4,15 +4,19 @@ public class ApplicationMain {
 		String[] shopList = new String[] {
 				"Apples",
 				"Bananas",
+				"Cucumbers",
+				"Cat Food and More Dog Food",
 				"Corn",
-				"Dog Food",
+				"More Dog Food",
 				"Cereal", 
 				"Bread", 
 				"Eggs",
 				"Milk"
 		};
 		
-		for (String item: shopList) {
+		System.out.println("My Shopping List");
+            	System.out.println();
+             	for (String item: shopList) {
 			System.out.println(item);
 		}	
        }
